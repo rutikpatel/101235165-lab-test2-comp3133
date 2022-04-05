@@ -1,0 +1,39 @@
+.card {
+    text-align: left;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    box-shadow: 1px 2px #888888;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.div {
+    border: 3px solid black;
+    margin: 20%;
+    margin-top: 2%;
+}
+
+.missionName {
+    font-weight: bolder;
+    font-size: medium;
+}
+.red{
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.large{
+    font-size: x-large;
+}
+mat-card-title{
+    color:grey
+}

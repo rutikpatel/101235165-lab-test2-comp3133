@@ -1,0 +1,35 @@
+<div class="div">
+    <h1 style="margin-left: 20px;">SpaceX Mission Details</h1>
+
+    <mat-card class="card">
+        <div class="column">
+            <img height='200px' width='200px' src="{{missions.links.mission_patch_small}}" alt="images">
+            <mat-card-content class="content">
+                <mat-card-title class="missionName red">Mission - {{missions.mission_name}}</mat-card-title>
+
+                <mat-card-title>Name: {{missions.mission_name}}</mat-card-title>
+
+                <mat-card-title>Launch Year: {{missions.launch_year}}</mat-card-title>
+
+                <mat-card-title class="missionName red">Rocket</mat-card-title>
+
+                <mat-card-title>Name: {{missions.rocket.rocket_name}}</mat-card-title>
+
+                <mat-card-title>Type: {{missions.rocket.rocket_type}}</mat-card-title>
+
+                <mat-card-title class="missionName red">Launch Site</mat-card-title>
+
+                <mat-card-title>Name: {{missions.launch_site.site_name_long}}</mat-card-title>
+            </mat-card-content>
+        </div>
+        <br />
+        <mat-card-title class="red large">Launch Details</mat-card-title>
+        <mat-card-title>{{missions.details}}</mat-card-title>
+        <mat-card-title class="red large">More Info On Launch Details</mat-card-title>
+        <mat-card-content class="column">
+        <mat-icon><a style="text-decoration: none;"href="{{missions.links.wikipedia}}">assignment</a></mat-icon>
+        <mat-icon aria-hidden="false"><a style="text-decoration: none;" href="{{missions.links.article_link}}">satellite</a></mat-icon>
+        <mat-icon class="red"aria-hidden="false"><a style="text-decoration: none;"href="{{missions.links.video_link}}">videocam</a></mat-icon>
+        </mat-card-content>
+    </mat-card>
+</div>
